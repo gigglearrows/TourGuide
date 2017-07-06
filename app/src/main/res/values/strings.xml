@@ -1,7 +1,75 @@
 <resources>
     <string name="app_name">Oslo Guide</string>
+
     <string name="category_places">Places</string>
+    <string name="places_universityoslo_title">University of Oslo</string>
+    <string name="places_universityoslo_desc">Multi-center public university, founded in 1811, with 8 faculties, 10 research centers &amp; 3 museums.</string>
+    <string name="places_culturalhistory_title">The Norwegian Museum of Cultural History</string>
+    <string name="places_culturalhistory_desc">Large open-air collection of Medieval buildings &amp; indoor culture &amp; lifestyle exhibits.</string>
+    <string name="places_operahouse_title">Oslo Opera House</string>
+    <string name="places_operahouse_desc">Home of The Norwegian National Opera and Ballet, and the national opera theatre in Norway. The building is situated in the Bjørvika neighborhood of central Oslo, at the head of the Oslofjord.</string>
+    <string name="places_royalpalace_title">The Royal Palace</string>
+    <string name="places_royalpalace_desc">Guided tours of the 19th-century residence of the King &amp; Queen of Norway, plus parkland visits.</string>
+    <string name="places_parliament_title">Parliament of Norway</string>
+    <string name="places_parliament_desc">Free guided tours are offered of this grand building, the longtime seat of Norway\'s Parliament.</string>
+    <string name="places_vigeland_title">The Vigeland Park</string>
+    <string name="places_vigeland_desc">Sculpture park &amp; museum displaying the works of Gustav Vigeland, plus temporary art exhibitions.</string>
+    <string name="places_reptilpark_title">Oslo Reptilpark</string>
+    <string name="places_reptilpark_desc">Reptile park also housing mammals, birds &amp; other animals, with feeding shows, including crocodiles.</string>
+    <string name="places_christianradich_title">Christian Radich</string>
+    <string name="places_christianradich_desc">Christian Radich is a Norwegian full-rigged ship, named after a Norwegian shipowner.</string>
+
+
     <string name="category_restaurants">Diners</string>
+    <string name="restaurant_ekebergrestauranten_title">Ekebergrestauranten</string>
+    <string name="restaurant_ekebergrestauranten_desc">Eclectic European cuisine, chic dining rooms &amp; terraces in a modernist, 1920s hillside restaurant.</string>
+    <string name="restaurant_maaemo_title">Maaemo</string>
+    <string name="restaurant_maaemo_desc">Norwegian menu with wine pairings, in minimalist setting.</string>
+    <string name="restaurant_engebretcafe_title">Engebret Cafe</string>
+    <string name="restaurant_engebretcafe_desc">Traditional Norwegian cuisine in elegant, white tablecloth dining room in an 18th-century building.</string>
+    <string name="restaurant_solsiden_title">Solsiden Restaurant</string>
+    <string name="restaurant_solsiden_desc">Excellent seafood. Good view and nice atmosphere.</string>
+    <string name="restaurant_mehfel_title">Mehfel Restaurant</string>
+    <string name="restaurant_mehfel_desc">Sophisticated, white-tablecloth restaurant serving menu of traditional Indian cuisine.</string>
+    <string name="restaurant_lofotenfish_title">Lofoten Fish Restaurant</string>
+    <string name="restaurant_lofotenfish_desc">Seasonal fish &amp; seafood menus in glass-fronted, white-tablecloth restaurant next to the harbor.</string>
+    <string name="restaurant_jaipur_title">Jaipur Restaurant</string>
+    <string name="restaurant_jaipur_desc">Expansive, traditional Indian menu offered in a restaurant decorated with wall hangings &amp; pictures.</string>
+    <string name="restaurant_brasseriefrance_title">Brasserie France</string>
+    <string name="restaurant_brasseriefrance_desc">French-style brasserie with 3 levels &amp; sidewalk terrace tables, offering traditional cuisine.</string>
+    <string name="restaurant_hanami_title">Hanami</string>
+    <string name="restaurant_hanami_desc">Chic, contemporary, waterside Japanese restaurant specialising in sushi &amp; robata grill dishes.</string>
+    <string name="restaurant_arakataka_title">Arakataka</string>
+    <string name="restaurant_arakataka_desc">Seasonal Nordic &amp; international cuisine in contemporary room with designer lighting &amp; open kitchen.</string>
+
+
     <string name="category_events">Events</string>
+    <string name="events_parliament_title">Guided tour of the Parliament building</string>
+    <string name="events_parliament_desc">7 Jul 2017, 13:00\nGuided tour in English at the Norwegian Parliament building, Stortinget. The tour is free, lasts for about 45 minutes and is open for everyone.</string>
+    <string name="events_amsterdam_title">Summer Celebration Party</string>
+    <string name="events_amsterdam_desc">8 Jul 2017, 21:00\nSummer Celebration Party at Cafe Amsterdam. Indonesian Kitchen will serve great street food, there will be special summer drinks in the bar and a DJ will make you dance the night away. Free entrance.</string>
+    <string name="events_botanical_title">Guided tour of the Botanical Garden</string>
+    <string name="events_botanical_desc">2 Jul – 30 Jul 2017, 14:00 – 15:00\nThe tour comprises a general introduction to the garden, including its themes, history, Tøyen hovedgård (one of the oldest wooden houses in Oslo), and of course information about trees, flowers and other plants growing in the garden.</string>
+    <string name="events_oslouniversity_title">Guided tour of the Oslo University campus</string>
+    <string name="events_oslouniversity_desc">29 Jun – 24 Aug 2017, 11:00 – 12:00\nThe tour takes you through the main campus called Blindern, where the university\'s guides inform you about faculties, study options, student life, art installations and history of the University.</string>
+
+
     <string name="category_hotels">Hotels</string>
+    <string name="hotel_plaza_title">Radisson Blu Plaza Hotel, Oslo</string>
+    <string name="hotel_plaza_desc">4-star hotel. Contemporary lodging with free Wi-Fi &amp; breakfast, plus a gym, a sauna &amp; an indoor pool.</string>
+    <string name="hotel_folketeateret_title">Clarion Collection Hotel Folketeateret</string>
+    <string name="hotel_folketeateret_desc">4-star hotel. Contemporary rooms &amp; duplex suites in an art deco hotel with a bar &amp; free breakfast.</string>
+    <string name="hotel_anker_title">Anker Apartment</string>
+    <string name="hotel_anker_desc">2-star hotel. Laid-back hostel with colorful rooms &amp; dorms, plus a grocery store, a bar &amp; a rooftop terrace.</string>
+    <string name="hotel_youngstorget_title">Comfort Hotel Xpress Youngstorvet</string>
+    <string name="hotel_youngstorget_desc">4-star hotel. Vibrant, modern hotel with a gym open 24 hours, a rooftop terrace &amp; a lobby shop.</string>
+    <string name="hotel_vulkan_title">Scandic Vulkan</string>
+    <string name="hotel_vulkan_desc">4-star hotel. Eclectic rooms in a modern hotel with an informal restaurant &amp; bar, plus a fitness center.</string>
+    <string name="hotel_olavsplass_title">Scandic St. Olavs plass</string>
+    <string name="hotel_olavsplass_desc">3-star hotel. Straightforward, modern rooms, plus a retro-style bar, a playroom &amp; a gym with a sauna.</string>
+    <string name="hotel_opera_title">Thon Hotel Opera</string>
+    <string name="hotel_opera_desc">4-star hotel. Colorful rooms &amp; suites, plus a free breakfast buffet, an international restaurant &amp; a fitness room.</string>
+    <string name="hotel_smarthotel_title">Smarthotel Oslo</string>
+    <string name="hotel_smarthotel_desc">3-star hotel. Chic hotel offering a bar, a dining room, a rooftop terrace &amp; a bohemian outdoor seating area.</string>
+
 </resources>

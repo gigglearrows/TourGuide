@@ -27,16 +27,16 @@ public class RestaurantsFragment extends Fragment {
 
         final ArrayList<Card> cards = new ArrayList<>();
         cards.addAll(Arrays.asList(
-                new Card("Ekebergrestauranten", "Eclectic European cuisine, chic dining rooms & terraces in a modernist, 1920s hillside restaurant.", R.drawable.restaurant_ekebergrestauranten),
-                new Card("Maaemo", "Norwegian menu with wine pairings, in minimalist setting.", R.drawable.restaurant_maaemo),
-                new Card("Engebret Cafe", "Traditional Norwegian cuisine in elegant, white tablecloth dining room in an 18th-century building.", R.drawable.restaurant_engebretcafe),
-                new Card("Solsiden Restaurant", "Excellent seafood. Good view and nice atmosphere.", R.drawable.restaurant_solsiden),
-                new Card("Mehfel Restaurant", "Sophisticated, white-tablecloth restaurant serving menu of traditional Indian cuisine.", R.drawable.restaurant_mehfel),
-                new Card("Lofoten Fish Restaurant", "Seasonal fish & seafood menus in glass-fronted, white-tablecloth restaurant next to the harbor.", R.drawable.restaurant_lofotenfish),
-                new Card("Jaipur Restaurant", "Expansive, traditional Indian menu offered in a restaurant decorated with wall hangings & pictures.", R.drawable.restaurant_jaipur),
-                new Card("Brasserie France", "French-style brasserie with 3 levels & sidewalk terrace tables, offering traditional cuisine.", R.drawable.restaurant_brasseriefrance),
-                new Card("Hanami", "Chic, contemporary, waterside Japanese restaurant specialising in sushi & robata grill dishes.", R.drawable.restaurant_hanami),
-                new Card("Arakataka", "Seasonal Nordic & international cuisine in contemporary room with designer lighting & open kitchen.", R.drawable.restaurant_arakataka)
+                new Card(getString(R.string.restaurant_ekebergrestauranten_title), getString(R.string.restaurant_ekebergrestauranten_desc), R.drawable.restaurant_ekebergrestauranten),
+                new Card(getString(R.string.restaurant_maaemo_title), getString(R.string.restaurant_maaemo_desc), R.drawable.restaurant_maaemo),
+                new Card(getString(R.string.restaurant_engebretcafe_title), getString(R.string.restaurant_engebretcafe_desc), R.drawable.restaurant_engebretcafe),
+                new Card(getString(R.string.restaurant_solsiden_title), getString(R.string.restaurant_solsiden_desc), R.drawable.restaurant_solsiden),
+                new Card(getString(R.string.restaurant_mehfel_title), getString(R.string.restaurant_mehfel_desc), R.drawable.restaurant_mehfel),
+                new Card(getString(R.string.restaurant_lofotenfish_title), getString(R.string.restaurant_lofotenfish_desc), R.drawable.restaurant_lofotenfish),
+                new Card(getString(R.string.restaurant_jaipur_title), getString(R.string.restaurant_jaipur_desc), R.drawable.restaurant_jaipur),
+                new Card(getString(R.string.restaurant_brasseriefrance_title), getString(R.string.restaurant_brasseriefrance_desc), R.drawable.restaurant_brasseriefrance),
+                new Card(getString(R.string.restaurant_hanami_title), getString(R.string.restaurant_hanami_desc), R.drawable.restaurant_hanami),
+                new Card(getString(R.string.restaurant_arakataka_title), getString(R.string.restaurant_arakataka_desc), R.drawable.restaurant_arakataka)
         ));
 
         CardAdapter itemsAdapter = new CardAdapter(getActivity(), cards);

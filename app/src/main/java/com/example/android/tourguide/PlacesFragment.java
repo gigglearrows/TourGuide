@@ -27,14 +27,14 @@ public class PlacesFragment extends Fragment {
 
         final ArrayList<Card> cards = new ArrayList<>();
         cards.addAll(Arrays.asList(
-                new Card("University of Oslo", "Multi-center public university, founded in 1811, with 8 faculties, 10 research centers & 3 museums.", R.drawable.places_universityoslo),
-                new Card("The Norwegian Museum of Cultural History", "Large open-air collection of Medieval buildings & indoor culture & lifestyle exhibits.", R.drawable.places_culturalhistory),
-                new Card("Oslo Opera House", "Home of The Norwegian National Opera and Ballet, and the national opera theatre in Norway. The building is situated in the Bjørvika neighborhood of central Oslo, at the head of the Oslofjord.", R.drawable.places_operahouse),
-                new Card("The Royal Palace", "Guided tours of the 19th-century residence of the King & Queen of Norway, plus parkland visits.", R.drawable.places_royalpalace),
-                new Card("Parliament of Norway", "Free guided tours are offered of this grand building, the longtime seat of Norway's Parliament.", R.drawable.places_parliament),
-                new Card("The Vigeland Park", "Sculpture park & museum displaying the works of Gustav Vigeland, plus temporary art exhibitions.", R.drawable.places_vigeland),
-                new Card("Oslo Reptilpark", "Reptile park also housing mammals, birds & other animals, with feeding shows, including crocodiles.", R.drawable.places_reptilpark),
-                new Card("Christian Radich", "Christian Radich is a Norwegian full-rigged ship, named after a Norwegian shipowner.", R.drawable.places_christianradich)
+                new Card(getString(R.string.places_universityoslo_title), getString(R.string.places_universityoslo_desc), R.drawable.places_universityoslo),
+                new Card(getString(R.string.places_culturalhistory_title), getString(R.string.places_culturalhistory_desc), R.drawable.places_culturalhistory),
+                new Card(getString(R.string.places_operahouse_title), getString(R.string.places_operahouse_desc), R.drawable.places_operahouse),
+                new Card(getString(R.string.places_royalpalace_title), getString(R.string.places_royalpalace_desc), R.drawable.places_royalpalace),
+                new Card(getString(R.string.places_parliament_title), getString(R.string.places_parliament_desc), R.drawable.places_parliament),
+                new Card(getString(R.string.places_vigeland_title), getString(R.string.places_vigeland_desc), R.drawable.places_vigeland),
+                new Card(getString(R.string.places_reptilpark_title), getString(R.string.places_reptilpark_desc), R.drawable.places_reptilpark),
+                new Card(getString(R.string.places_christianradich_title), getString(R.string.places_christianradich_desc), R.drawable.places_christianradich)
         ));
 
         CardAdapter itemsAdapter = new CardAdapter(getActivity(), cards);
